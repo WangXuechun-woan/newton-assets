@@ -60,9 +60,6 @@ builder.add_urdf("urdf/a1_left.urdf")
 - 双臂站架源模型：`urdf/a1_bimanual_stand.urdf`、
   `meshes/a1_bimanual_stand/`。
 
-USD 由上述包内源文件生成。README 中不存在依赖 `newton_a1` 目录之外的模型
-来源路径。
-
 
 ## Validation
 
