@@ -14,10 +14,10 @@ def Xform "onerobotics_a1_left"
 {
     def Scope "Physics"
     {
-        def PhysicsFixedJoint "world_to_base"
+        def PhysicsFixedJoint "root_joint"
         {
             rel physics:body0 = </onerobotics_a1_left>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link>
             point3f physics:localPos0 = (0, 0, 0)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (1, 0, 0, 0)
@@ -34,8 +34,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1>
             point3f physics:localPos0 = (0, 0, 0.0125)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (1, 0, 0, 0)
@@ -55,8 +55,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2>
             point3f physics:localPos0 = (0, 0, 0.12745)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (0.49999815, 0.5, -0.5, 0.50000185)
@@ -76,8 +76,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3>
             point3f physics:localPos0 = (0, -0.09325, -0.0001)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (-0.49999815, -0.5, 0.5, -0.50000185)
@@ -97,8 +97,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4>
             point3f physics:localPos0 = (0, -0.001, 0.14025)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (0.70710677, 0.70710677, 0.000023806808, 0.000023806808)
@@ -118,8 +118,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4/Link5>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4/Link5>
             point3f physics:localPos0 = (1.3552527e-20, 0.088, -0.001)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (0.70710677, -0.70710677, 5.551115e-17, -1.6696713e-17)
@@ -139,8 +139,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4/Link5>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4/Link5/Link6>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4/Link5>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4/Link5/Link6>
             point3f physics:localPos0 = (0, 0.0005, 0.133)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (-0.70710546, 0.7071081, 5.551115e-17, -1.3538975e-17)
@@ -160,8 +160,8 @@ def Xform "onerobotics_a1_left"
         {
             float newton:velocityLimit = 1718.8734
             uniform token physics:axis = "Z"
-            rel physics:body0 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4/Link5/Link6>
-            rel physics:body1 = </onerobotics_a1_left/Geometry/world/base_link/Link1/Link2/Link3/Link4/Link5/Link6/Link7>
+            rel physics:body0 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4/Link5/Link6>
+            rel physics:body1 = </onerobotics_a1_left/Geometry/base_link/Link1/Link2/Link3/Link4/Link5/Link6/Link7>
             point3f physics:localPos0 = (1.3552527e-20, -0.112, 0.00025)
             point3f physics:localPos1 = (0, 0, 0)
             quatf physics:localRot0 = (-0.70710546, -0.7071081, 0, 6.906029e-17)
@@ -174,8 +174,6 @@ def Xform "onerobotics_a1_left"
 
     over "Geometry"
     {
-        over "world"
-        {
             over "base_link" (
                 prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsArticulationRootAPI", "NewtonArticulationRootAPI", "PhysicsMassAPI", "NewtonMassAPI"]
             )
@@ -319,7 +317,6 @@ def Xform "onerobotics_a1_left"
                     }
                 }
             }
-        }
     }
 }
 
@@ -328,4 +325,3 @@ def PhysicsScene "PhysicsScene" (
 )
 {
 }
-

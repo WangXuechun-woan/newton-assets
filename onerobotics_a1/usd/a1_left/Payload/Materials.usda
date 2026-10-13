@@ -65,8 +65,6 @@ def Xform "onerobotics_a1_left"
 
     over "Geometry"
     {
-        over "world"
-        {
             over "base_link"
             {
                 over "base_link" (
@@ -146,7 +144,5 @@ def Xform "onerobotics_a1_left"
                     }
                 }
             }
-        }
     }
 }
-

@@ -8,16 +8,6 @@
     <compiler meshdir="." balanceinertia="true" discardvisual="false" />
   </mujoco>
 
-  <!-- 虚拟根link (KDL兼容性) -->
-  <link name="world"/>
-
-    <!-- 虚拟根关节 -->
-  <joint name="world_to_base" type="fixed">
-    <parent link="world"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
-
   <link
     name="base_link">
     <inertial>
