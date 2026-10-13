@@ -425,11 +425,11 @@ def Xform "onerobotics_a1_bimanual_stand"
                                             prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
                                         )
                                         {
-                                            double[] newton:inertia = [0.00000281905964099438, 0.00000189453459279246, 0.00000460994245909736, 5.38514683324669e-16, -7.35875033932577e-18, 2.22908037665912e-9]
+                                            double[] newton:inertia = [0.0000317582, 0.0000213489, 0.0000519434, -7.0079e-10, 1.4649e-12, 2.5115e-8]
                                             point3f physics:centerOfMass = (8.099077e-13, -0.0022020927, 0.0029305224)
-                                            float3 physics:diagonalInertia = (0.0000018945327, 0.0000028190595, 0.0000046099444)
-                                            float physics:mass = 0.017750645
-                                            quatf physics:principalAxes = (0.00029023198, 0.7071067, 0.7071067, -0.00029023198)
+                                            float3 physics:diagonalInertia = (0.00002134888, 0.0000317582, 0.00005194342)
+                                            float physics:mass = 0.2
+                                            quatf physics:principalAxes = (0.0002902256, 0.70713055, 0.7070829, -0.00029023722)
 
                                             over "Link_r7_1" (
                                                 prepend apiSchemas = ["PhysicsCollisionAPI", "NewtonCollisionAPI", "PhysicsMeshCollisionAPI", "NewtonMeshCollisionAPI"]
@@ -569,11 +569,11 @@ def Xform "onerobotics_a1_bimanual_stand"
                                             prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "NewtonMassAPI"]
                                         )
                                         {
-                                            double[] newton:inertia = [0.00000281905963680209, 0.00000189453459698476, 0.00000460994245909715, 6.22561213944916e-11, -2.05797154201455e-13, 2.22908043797951e-9]
+                                            double[] newton:inertia = [0.0000317582, 0.0000213489, 0.0000519434, -7.0079e-10, 1.4649e-12, 2.5115e-8]
                                             point3f physics:centerOfMass = (1.4819416e-7, -0.0022020927, 0.0029305224)
-                                            float3 physics:diagonalInertia = (0.0000018945327, 0.0000028190595, 0.0000046099444)
-                                            float physics:mass = 0.017750645
-                                            quatf physics:principalAxes = (0.00029025276, 0.7070829, 0.70713055, -0.00029021123)
+                                            float3 physics:diagonalInertia = (0.00002134888, 0.0000317582, 0.00005194342)
+                                            float physics:mass = 0.2
+                                            quatf physics:principalAxes = (0.0002902256, 0.70713055, 0.7070829, -0.00029023722)
 
                                             over "Link_l7_1" (
                                                 prepend apiSchemas = ["PhysicsCollisionAPI", "NewtonCollisionAPI", "PhysicsMeshCollisionAPI", "NewtonMeshCollisionAPI"]
