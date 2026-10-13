@@ -154,8 +154,8 @@
     <limit
       lower="-1.04"
       upper="3.14"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_r2">
@@ -212,8 +212,8 @@
     <limit
       lower="-3.14"
       upper="0.26"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_r3">
@@ -270,8 +270,8 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_r4">
@@ -328,8 +328,8 @@
     <limit
       lower="-1.91"
       upper="1.91"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_r5">
@@ -386,8 +386,8 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_r6">
@@ -444,8 +444,8 @@
     <limit
       lower="-1.57"
       upper="1.57"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_r7">
@@ -502,8 +502,8 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_l0">
@@ -613,8 +613,8 @@
     <limit
       lower="-3.14"
       upper="1.04"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_l2">
@@ -671,8 +671,8 @@
     <limit
       lower="-0.26"
       upper="3.14"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_l3">
@@ -729,8 +729,8 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="15"
+      velocity="30" />
   </joint>
   <link
     name="Link_l4">
@@ -787,8 +787,8 @@
     <limit
       lower="-1.91"
       upper="1.91"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_l5">
@@ -845,8 +845,8 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_l6">
@@ -903,8 +903,8 @@
     <limit
       lower="-1.57"
       upper="1.57"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
   <link
     name="Link_l7">
@@ -961,7 +961,7 @@
     <limit
       lower="-2.75"
       upper="2.75"
-      effort="0"
-      velocity="0" />
+      effort="3"
+      velocity="30" />
   </joint>
 </robot>

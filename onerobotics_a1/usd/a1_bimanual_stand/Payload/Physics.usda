@@ -38,7 +38,7 @@ def Xform "onerobotics_a1_bimanual_stand"
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1>
@@ -48,14 +48,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -59.587612
             float physics:upperLimit = 179.90875
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_r2" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2>
@@ -65,14 +65,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -179.90875
             float physics:upperLimit = 14.896903
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_r3" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3>
@@ -82,14 +82,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_r4" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4>
@@ -99,14 +99,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -109.43494
             float physics:upperLimit = 109.43494
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_r5" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4/Link_r5>
@@ -116,14 +116,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_r6" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4/Link_r5>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4/Link_r5/Link_r6>
@@ -133,14 +133,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -89.95438
             float physics:upperLimit = 89.95438
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_r7" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4/Link_r5/Link_r6>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_r0/Link_r1/Link_r2/Link_r3/Link_r4/Link_r5/Link_r6/Link_r7>
@@ -150,7 +150,7 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsFixedJoint "joint_l0"
@@ -167,7 +167,7 @@ def Xform "onerobotics_a1_bimanual_stand"
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1>
@@ -177,14 +177,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -179.90875
             float physics:upperLimit = 59.587612
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_l2" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2>
@@ -194,14 +194,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -14.896903
             float physics:upperLimit = 179.90875
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_l3" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3>
@@ -211,14 +211,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 15
         }
 
         def PhysicsRevoluteJoint "joint_l4" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4>
@@ -228,14 +228,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -109.43494
             float physics:upperLimit = 109.43494
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_l5" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4/Link_l5>
@@ -245,14 +245,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_l6" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4/Link_l5>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4/Link_l5/Link_l6>
@@ -262,14 +262,14 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -89.95438
             float physics:upperLimit = 89.95438
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
 
         def PhysicsRevoluteJoint "joint_l7" (
             prepend apiSchemas = ["NewtonJointAPI"]
         )
         {
-            float newton:velocityLimit = 0
+            float newton:velocityLimit = 30
             uniform token physics:axis = "Z"
             rel physics:body0 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4/Link_l5/Link_l6>
             rel physics:body1 = </onerobotics_a1_bimanual_stand/Geometry/base_link/Link_l0/Link_l1/Link_l2/Link_l3/Link_l4/Link_l5/Link_l6/Link_l7>
@@ -279,7 +279,7 @@ def Xform "onerobotics_a1_bimanual_stand"
             quatf physics:localRot1 = (1, 0, 0, 0)
             float physics:lowerLimit = -157.5634
             float physics:upperLimit = 157.5634
-            custom float urdf:limit:effort = 0
+            custom float urdf:limit:effort = 3
         }
     }
 
@@ -598,4 +598,3 @@ def PhysicsScene "PhysicsScene" (
 )
 {
 }
-
