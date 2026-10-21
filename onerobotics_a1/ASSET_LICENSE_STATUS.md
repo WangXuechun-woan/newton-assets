@@ -18,12 +18,9 @@ commercial use, subject to the license terms in [`LICENSE`](LICENSE).
 
 ## Covered material in this package
 
-- three URDF files under `urdf/`;
-- 8 STL files under `meshes/a1_left/`;
-- 8 STL files under `meshes/a1_right/`;
 - 17 STL files under `meshes/a1_bimanual_stand/`;
-- the three explicitly identified USD conversions under `usd/`, including
-  their USDA and USDC component layers.
+- the bimanual-stand USD conversion under `usd/a1_bimanual_stand/`, including
+  its USDA and USDC component layers.
 
 The USD files are adaptations generated from the covered URDF and STL files
 using Newton's `urdf-usd-converter 0.3.3`.
@@ -32,15 +29,14 @@ using Newton's `urdf-usd-converter 0.3.3`.
 
 > OneRobotics A1 robot assets © 2026 OneRobotics, licensed under CC BY 4.0
 > (<https://creativecommons.org/licenses/by/4.0/>). Changes: mesh references
-> adapted to the portable Newton asset layout; robot names normalized; three
-> structured OpenUSD assets generated with Newton's URDF-to-USD converter;
+> adapted to the portable Newton asset layout; robot name normalized; one
+> structured OpenUSD asset generated with Newton's URDF-to-USD converter;
 > physical model fields and STL mesh bytes unchanged.
 
 ## Scope boundaries
 
-- The three models are independent CAD assets: left arm, right arm, and
-  bimanual stand. The license statement does not imply that they form one
-  mechanically compatible assembly.
+- The package contains the bimanual stand only. The license statement does not
+  imply compatibility with other OneRobotics products.
 - The CC BY 4.0 license does not grant rights in OneRobotics names, logos, or
   trademarks beyond reasonable attribution and does not imply endorsement.
 - Newton, NVIDIA Warp, OpenUSD, the URDF-to-USD converter, and their runtime
@@ -50,4 +46,3 @@ using Newton's `urdf-usd-converter 0.3.3`.
 
 This file is the controlling license record for the A1 material packaged in
 this directory.
-
